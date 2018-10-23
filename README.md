@@ -14,6 +14,6 @@ Yup! Feel free to open issues and create pull requests 🙇
 
 It's not up on the chrome addon store just yet. Soon though!
 
-## Catchphrase
+---
 
 Throw that mouse in the bin, you're a power user now!
