@@ -1,4 +1,4 @@
-// Define core variables
+// Define core variables on page load
 const results = document.querySelectorAll('.rc')
 const resultsLength = results.length
 const firstResult = results[0]
