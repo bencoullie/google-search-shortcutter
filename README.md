@@ -16,4 +16,6 @@ It's not up on the chrome addon store just yet. Soon though!
 
 ---
 
+![tenor](https://user-images.githubusercontent.com/6733407/47382417-c5c94600-d75e-11e8-9761-ca32fcb02fb3.gif)
+
 Throw that mouse in the bin, you're a power user now!
