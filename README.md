@@ -4,7 +4,7 @@ Tab through google search results with unrivaled confidence.
 
 ## What does it do?
 
-It allows you to navigate Google without a mouse. Simply tab through the results and hit enter to visit the link.
+It allows you to navigate Google search without a mouse. Simply tab through the results and hit enter to visit the link.
 
 ## Open source?
 
