@@ -6,7 +6,7 @@ Tab through google search results with unrivaled confidence.
 
 It allows you to navigate Google without a mouse. Simply tab through the results and hit enter to visit the link.
 
-##Open source?
+## Open source?
 
 Yup! Feel free to open issues and create pull requests 🙇
 
