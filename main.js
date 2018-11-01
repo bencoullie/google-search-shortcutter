@@ -1,5 +1,5 @@
 // Define core variables on page load
-const results = document.querySelectorAll('.rc')
+const results = document.querySelectorAll('.srg .rc')
 const resultsLength = results.length
 const firstResult = results[0]
 let currentTargetIndex = 0
