@@ -21,22 +21,39 @@ document.addEventListener('keydown', event => {
   const tabKeyPressed = event.which === 9
 
   if (tabKeyPressed) {
+    const shiftKeyWasCombined = event.shiftKey
+    let newTarget
     // Prevent tab from giving us the usual shitty 'tab' experience
     event.preventDefault()
 
-    // Determine if we should restart the loop
-    const reachedLastResult = resultsLength === currentTargetIndex + 1
+    if (shiftKeyWasCombined) {
+      // Determine if we should restart the loop
+      const firstResult = currentTargetIndex === 0
 
-    let newTarget
-    if (reachedLastResult) {
-      // Refocus on first result and reset loop
-      newTarget = results[0]
+      if (firstResult) {
+        // Refocus on first result and reset loop
+        newTarget = results[resultsLength - 1]
 
-      currentTargetIndex = 0
+        currentTargetIndex = resultsLength
+      } else {
+        // Move to next result
+        currentTargetIndex--
+        newTarget = results[currentTargetIndex]
+      }
     } else {
-      // Move to next result
-      currentTargetIndex++
-      newTarget = results[currentTargetIndex]
+      // Determine if we should restart the loop
+      const reachedLastResult = resultsLength === currentTargetIndex + 1
+
+      if (reachedLastResult) {
+        // Refocus on first result and reset loop
+        newTarget = results[0]
+
+        currentTargetIndex = 0
+      } else {
+        // Move to next result
+        currentTargetIndex++
+        newTarget = results[currentTargetIndex]
+      }
     }
 
     // Change focus
