@@ -1,8 +1,22 @@
-#main .shortcutted:before {
+/* #main .rc a:focus:before {
 	content: "↪";
 	display: block;
 	position: absolute;
 	left: -26px;
 	top: -1px;
 	font-size: 20px;
+} */
+
+#main .rc a h3 {
+	background-size: 20% 100%;
+}
+
+#main .rc a:focus h3 {
+	transition: background-size .4s ease;
+	background: linear-gradient(to bottom, transparent 50%, #fff87e 0) center center/0% 75% no-repeat;
+	background-size: 98% 100%;
+}
+
+#main .rc a:focus {
+	outline: none;
 }
