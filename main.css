@@ -13,7 +13,7 @@
 
 #main .rc a:focus h3 {
 	transition: background-size .4s ease;
-	background: linear-gradient(to bottom, transparent 50%, #f7df7e 0) center center/0% 75% no-repeat;
+	background: linear-gradient(to bottom, transparent 50%, #f9e9a3 0) center center/0% 75% no-repeat;
 	background-size: 98% 100%;
 }
 
