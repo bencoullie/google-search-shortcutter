@@ -1,14 +1,18 @@
+// Remove annoying things
+const annoyingResultBox = document.querySelector(".g.kno-kp.mnr-c.g-blk")
+annoyingResultBox.remove()
+
 // Define core variables on page load
-const results = document.querySelectorAll('.srg .rc')
+const results = document.querySelectorAll(".r")
 const resultsLength = results.length
 const firstResult = results[0]
 let currentTargetIndex = 0
 
 // Generic target function
-const targetResult = result => {
+const targetResult = (result) => {
   if (result) {
     // Set focus on the given result's anchor tag
-    const resultLink = result.querySelector('a')
+    const resultLink = result.querySelector("a")
     resultLink.focus()
   }
 }
@@ -17,7 +21,7 @@ const targetResult = result => {
 targetResult(firstResult)
 
 // Handle keydown
-document.addEventListener('keydown', event => {
+document.addEventListener("keydown", (event) => {
   const tabKeyPressed = event.which === 9
 
   if (tabKeyPressed) {
