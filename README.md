@@ -12,7 +12,7 @@ Yup! Feel free to open issues and create pull requests 🙇
 
 ## Shweet - so how do I get it?
 
-It's not up on the chrome addon store just yet. Soon though!
+It's not up on the chrome addon store just yet. Soon though! For now you can just clone this repo, compress it and drag-n-drop that compressed file into the Manage Extensions page in chrome.
 
 ---
 
