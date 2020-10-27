@@ -38,7 +38,7 @@ document.addEventListener("keydown", (event) => {
         // Refocus on first result and reset loop
         newTarget = results[resultsLength - 1]
 
-        currentTargetIndex = resultsLength
+        currentTargetIndex = resultsLength - 1
       } else {
         // Move to next result
         currentTargetIndex--
