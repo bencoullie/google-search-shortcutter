@@ -1,6 +1,6 @@
 // Remove annoying things
 const annoyingResultBox = document.querySelector(".g.kno-kp.mnr-c.g-blk")
-annoyingResultBox.remove()
+annoyingResultBox && annoyingResultBox.remove()
 
 // Define core variables on page load
 const results = document.querySelectorAll(".r")
